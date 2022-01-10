@@ -9,6 +9,8 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+    id 'org.spring.dependecny-management' version '1.0.8.RELEASE'
+    id 'org.springframework.boot' version '2.1.2.RELEASE'
 }
 
 repositories {
